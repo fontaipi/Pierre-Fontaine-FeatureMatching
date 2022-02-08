@@ -21,13 +21,13 @@ public class FeatureMatchingUnitTest
             imageScenesData.Add(imageBytes);
         }
         var objectImageData = await
-            File.ReadAllBytesAsync(Path.Combine(executingPath, "Fontaine-Pierre-object.png"));
+            File.ReadAllBytesAsync(Path.Combine(executingPath, "Fontaine-Pierre-object.jpg"));
         var detectObjectInScenesResults = new
             ObjectDetection().DetectObjectInScenes(objectImageData, imageScenesData);
-        
-        Assert.Equal("[{\"X\":116,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Points));
 
-        Assert.Equal("[{\"X\":116,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Points));
+        Assert.Equal("[{\"X\":1150,\"Y\":1660},{\"X\":239,\"Y\":2067},{\"X\":566,\"Y\":2746},{\"X\":1471,\"Y\":2300}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Points));
+
+        Assert.Equal("[{\"X\":3429,\"Y\":2379},{\"X\":1757,\"Y\":2306},{\"X\":2207,\"Y\":1479},{\"X\":1991,\"Y\":644}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Points));
     }
     private static string GetExecutingPath()
     {
