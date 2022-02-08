@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{84A2950F-B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Fontaine.FeatureMatching.Tests", "test\Pierre.Fontaine.FeatureMatching.Tests\Pierre.Fontaine.FeatureMatching.Tests.csproj", "{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Fontaine.FeatureMatching.Console", "src\Pierre.Fontaine.FeatureMatching.Console\Pierre.Fontaine.FeatureMatching.Console.csproj", "{7C2A755C-7BDE-441D-B68E-A1512BD7BCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Fontaine.FeatureMatching.WebApi", "src\Pierre.Fontaine.FeatureMatching.WebApi\Pierre.Fontaine.FeatureMatching.WebApi.csproj", "{6294A525-5807-4C82-9CF4-49F5CBCFF012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +32,19 @@ Global
 		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2A755C-7BDE-441D-B68E-A1512BD7BCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2A755C-7BDE-441D-B68E-A1512BD7BCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2A755C-7BDE-441D-B68E-A1512BD7BCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2A755C-7BDE-441D-B68E-A1512BD7BCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6294A525-5807-4C82-9CF4-49F5CBCFF012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6294A525-5807-4C82-9CF4-49F5CBCFF012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6294A525-5807-4C82-9CF4-49F5CBCFF012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6294A525-5807-4C82-9CF4-49F5CBCFF012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D473DC18-F57E-4166-B947-C0FFAE8F80B3} = {003BC866-AD47-4FF2-8302-2F5FFBABC11B}
 		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731} = {84A2950F-B57A-4E5A-B1A9-0CF3D3DEAF81}
+		{7C2A755C-7BDE-441D-B68E-A1512BD7BCEC} = {003BC866-AD47-4FF2-8302-2F5FFBABC11B}
+		{6294A525-5807-4C82-9CF4-49F5CBCFF012} = {003BC866-AD47-4FF2-8302-2F5FFBABC11B}
 	EndGlobalSection
 EndGlobal

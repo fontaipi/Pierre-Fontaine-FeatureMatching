@@ -25,6 +25,7 @@ public class FeatureMatchingUnitTest
         var detectObjectInScenesResults = new
             ObjectDetection().DetectObjectInScenes(objectImageData, imageScenesData);
 
+        var tmp = JsonSerializer.Serialize(detectObjectInScenesResults[0].Points);
         Assert.Equal("[{\"X\":1150,\"Y\":1660},{\"X\":239,\"Y\":2067},{\"X\":566,\"Y\":2746},{\"X\":1471,\"Y\":2300}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Points));
 
         Assert.Equal("[{\"X\":3429,\"Y\":2379},{\"X\":1757,\"Y\":2306},{\"X\":2207,\"Y\":1479},{\"X\":1991,\"Y\":644}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Points));
