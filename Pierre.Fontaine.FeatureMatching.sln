@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{003BC866-AD47-4FF2-8302-2F5FFBABC11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Fontaine.FeatureMatching", "src\Pierre.Fontaine.FeatureMatching\Pierre.Fontaine.FeatureMatching.csproj", "{D473DC18-F57E-4166-B947-C0FFAE8F80B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{84A2950F-B57A-4E5A-B1A9-0CF3D3DEAF81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Fontaine.FeatureMatching.Tests", "test\Pierre.Fontaine.FeatureMatching.Tests\Pierre.Fontaine.FeatureMatching.Tests.csproj", "{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D473DC18-F57E-4166-B947-C0FFAE8F80B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D473DC18-F57E-4166-B947-C0FFAE8F80B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D473DC18-F57E-4166-B947-C0FFAE8F80B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D473DC18-F57E-4166-B947-C0FFAE8F80B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D473DC18-F57E-4166-B947-C0FFAE8F80B3} = {003BC866-AD47-4FF2-8302-2F5FFBABC11B}
+		{964967A7-2F6D-45A7-9CA7-FF65A0BB0731} = {84A2950F-B57A-4E5A-B1A9-0CF3D3DEAF81}
+	EndGlobalSection
+EndGlobal
